@@ -4,7 +4,7 @@ import classes from './loginBtn.module.css';
 function loginBtn() {
     return (
         <div>
-            <button className={classes.btn}>Log in</button>
+            <button className={classes.btn}>Get Started</button>
         </div>
     );
 }

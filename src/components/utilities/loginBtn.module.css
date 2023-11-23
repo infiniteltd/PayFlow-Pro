@@ -1,7 +1,7 @@
 .btn {
   width: 30%;
   height: fixed(198px);
-  top: 605px;
+  top: 500px;
   left: 128px;
   padding: 5px, 32px, 5px, 32px;
   border-radius: 50px;
@@ -9,6 +9,7 @@
   color: #fff;
   background-color: #407bff;
   border: none;
+  margin-top: -40rem;
 }
 
 .btn:hover {

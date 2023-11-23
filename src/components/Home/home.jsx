@@ -23,6 +23,8 @@ function home() {
                 <img src={BoardImg} className={classes.boardImg} />
             </div>
 
+            <div className={classes.line}></div>
+
             <div className={classes.slider}>
                 <div className={classes.sliderImg1}>
                     <img src={TakeControl} className={classes.control} />
@@ -37,6 +39,8 @@ function home() {
                     <h2>Track your performance</h2>
                 </div>
             </div>
+
+            <div className={classes.line}></div>
 
             <div className={classes.realTime}>
                 <img src={RealTime} className={classes.realtimeImg} />
