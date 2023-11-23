@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+/* .home {
+  margin-top: 1.2rem;
+  margin-right: -30rem;
+  cursor: pointer;
+} */
+
+.navbar {
+  display: flex;
+  margin-top: 1.2rem;
+  margin-right: -30rem;
+}
+
+.services {
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.headerLogin {
+  text-align: center;
+  width: 8%;
+  height: 7vh;
+  top: 36px;
+  left: 122px;
+  padding: 5px, 5px, 5px, 5px;
+  border-radius: 26px;
+  gap: 10px;
+  color: #fff;
+  background-color: #407bff;
+  border: none;
+  margin-right: -15rem;
+}
+
+.headerLogin:hover {
+  background-color: #690669;
+}
+
+h2 {
+  color: rgb(26, 25, 25);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+h2:hover {
+  color: rgb(85, 2, 85);
+  text-decoration: underline;
+}
+
+@media (min-width: 720px) {
+  .bar1 {
+    height: 10vh;
+    width: 10%;
+  }
+  .bar2 {
+    height: 10vh;
+    width: 10%;
+  }
+  .bar3 {
+    height: 10vh;
+    width: 10%;
+  }
+}

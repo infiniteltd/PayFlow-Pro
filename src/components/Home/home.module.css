@@ -1,0 +1,169 @@
+.board {
+  display: flex;
+  margin: 1rem;
+}
+
+.intro {
+  margin-left: 3rem;
+}
+
+.intro h1 {
+  width: 488px;
+  height: 375px;
+  top: 190px;
+  left: 128px;
+  font-family: Abril Fatface;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 94px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
+  margin-top: 1rem;
+}
+
+.boardImg {
+  width: 700px;
+  height: 400px;
+  top: 200px;
+  left: 573px;
+  margin-top: 2rem;
+  /* margin-left: -0.5rem; */
+}
+
+.slider {
+  display: flex;
+  overflow-x: hidden;
+  /* background-color: rgba(204, 201, 201, 0.918); */
+  margin-top: 4rem;
+}
+
+.slider h2 {
+  margin-top: 1rem;
+  font-family: Aladin;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.control {
+  width: 380px;
+  height: 300px;
+  border-radius: 10%;
+}
+
+.clients {
+  width: 380px;
+  height: 300px;
+  border-radius: 10%;
+}
+
+.track {
+  width: 380px;
+  height: 300px;
+  border-radius: 10%;
+}
+
+.sliderImg1 {
+  margin-left: 5rem;
+}
+
+.sliderImg2 {
+  margin-left: 2rem;
+}
+
+.sliderImg3 {
+  margin-left: 3rem;
+}
+
+.realTime {
+  display: flex;
+  place-content: center;
+  margin-top: 3rem;
+}
+
+.realTime h2 {
+  margin-left: 10rem;
+  /* width: 488px;
+  height: 89px;
+  top: 1038px;
+  left: 804px; */
+  font-family: Abril Fatface;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 89px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
+}
+
+.realtimeImg {
+  width: 400px;
+  height: 400px;
+  top: 1031px;
+  left: 172px;
+  margin-left: -10rem;
+}
+
+.engage {
+  display: flex;
+  place-content: center;
+  margin-top: 3rem;
+}
+
+.engage h2 {
+  margin-left: 5rem;
+  font-family: Abril Fatface;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 89px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
+  cursor: zoom-in;
+}
+
+.engageImg {
+  width: 500px;
+  height: 400px;
+  top: 1031px;
+  left: 172px;
+  margin-left: 10rem;
+}
+
+/* .signUp h3 {
+  margin-top: 2rem;
+  text-decoration: none;
+  font-size: small;
+}
+
+.signUp {
+  text-align: center;
+  margin-left: 10rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.signupBtn {
+  width: 50%;
+  height: 8vh;
+  border: none;
+  color: rgba(255, 255, 255, 0.897);
+}
+.signupBtn:hover {
+  background-color: rgb(5, 105, 44);
+  color: rgba(255, 255, 255, 0.897);
+}
+.loginBtn {
+  margin-top: 1rem;
+  width: 30%;
+  border: none;
+  background-color: transparent;
+  color: rgb(44, 44, 44);
+}
+.loginBtn:hover {
+  background-color: rgb(2, 70, 28);
+  color: rgba(255, 255, 255, 0.897);
+} */

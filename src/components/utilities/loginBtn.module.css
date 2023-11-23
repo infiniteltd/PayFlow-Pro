@@ -1,0 +1,16 @@
+.btn {
+  width: 30%;
+  height: fixed(198px);
+  top: 605px;
+  left: 128px;
+  padding: 5px, 32px, 5px, 32px;
+  border-radius: 50px;
+  gap: 10px;
+  color: #fff;
+  background-color: #407bff;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #690669;
+}
