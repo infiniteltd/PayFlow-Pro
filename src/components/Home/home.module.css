@@ -5,174 +5,248 @@
 
 .intro {
   margin-left: 3rem;
+  display: inline-block;
 }
 
 .intro h1 {
-  width: 488px;
-  height: 375px;
-  top: 190px;
-  left: 128px;
-  font-family: Abril Fatface;
-  font-size: 60px;
+  width: 588px;
+  height: 164px;
+  top: 332px;
+  left: 76px;
+  font-family: SF Pro Display;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #080708;
+}
+
+.intro span {
+  width: 595px;
+  height: 58px;
+  top: 512px;
+  left: 76px;
+  font-family: SF Pro Display;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 75px;
+  line-height: 29px;
   letter-spacing: 0.02em;
   text-align: left;
   color: #000000;
-  margin-top: 1rem;
 }
 
 .boardImg {
-  width: 700px;
-  height: 400px;
-  top: 200px;
-  left: 573px;
-  margin-top: 2rem;
-  /* margin-left: -0.5rem; */
+  width: 512.27px;
+  height: 468px;
+  top: 241px;
+  left: 748px;
 }
 
-.line {
-  width: 100%;
-  height: 1vh;
-  margin-left: 1.5rem;
+.introBtn {
+  margin-top: -5rem;
+}
+
+.btn {
+  width: Hug (202px);
+  height: Hug (62px);
+  top: 602px;
+  left: 76px;
+  padding: 18px, 24px, 18px, 24px;
+  border-radius: 12px;
+  gap: 8px;
+  background-color: #080708;
+  margin-top: 1rem;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #690669;
+}
+
+.subIntro {
+  width: 924px;
+  height: 160px;
+  top: 894px;
+  left: 376px;
+  margin-left: 25rem;
+  margin-top: 2.5rem;
+}
+
+.subIntro h2 {
+  font-weight: 700;
+  font-size: 28px;
+  font-family: SF Pro Display;
+  text-decoration: none;
+  color: #080708;
+  margin-bottom: -0.05rem;
+}
+
+.subIntro img {
+  width: 20px;
+  height: 20px;
+  top: 905px;
+  left: 376px;
+  margin-left: -1.5rem;
+}
+
+.subIntro span {
+  margin-top: -1rem;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 550;
+  line-height: 2px;
+}
+
+.subIntro button {
+  margin-top: 0.3rem;
+  margin-left: -1.1rem;
+  background-color: transparent;
+  border-style: none;
+}
+
+.takeControl {
   margin-top: 2rem;
-  background-color: rgb(167, 166, 166);
+  display: flex;
+  justify-content: center;
+  width: Hug (1, 144px);
+  height: Hug (438px);
+  top: 1120px;
+  left: 148.44px;
+  padding: 26px, 64px, 26px, 64px;
+  gap: 69px;
+}
+.takeControl h2 {
+  color: #080708;
+  font-weight: 800;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  margin-bottom: -0.05rem;
+}
+.takeControl span {
+  margin-top: -1rem;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 550;
+  line-height: 2px;
+}
+
+.manageClient {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 1415px;
+  height: 438px;
+  top: 1625px;
+  left: 13px;
+  padding: 26px, 262px, 26px, 261px;
+  gap: 69px;
+  background: #ffbe9d;
+}
+.manageClient img {
+  width: 518px;
+  height: 386px;
+  mix-blend-mode: multiply;
+}
+.manageClient h2 {
+  color: #080708;
+  font-weight: 800;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  margin-bottom: -0.05rem;
+}
+.manageClient span {
+  margin-top: -1rem;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 550;
+  line-height: 2px;
+}
+.line {
+  width: 90%;
+  height: 1vh;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  background: #d9d9d9;
   border-radius: 10px 10px 10px 10px;
 }
 
-.slider {
-  display: flex;
-  overflow-x: hidden;
-  /* background-color: rgba(204, 201, 201, 0.918); */
-  margin-top: 4rem;
-}
-
-.slider h2 {
-  margin-top: 1rem;
-  font-family: Aladin;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 36px;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
-
-.control {
-  width: 380px;
-  height: 300px;
-  border-radius: 10%;
-}
-
-.clients {
-  width: 380px;
-  height: 300px;
-  border-radius: 10%;
-}
-
-.track {
-  width: 380px;
-  height: 300px;
-  border-radius: 10%;
-}
-
-.sliderImg1 {
-  margin-left: 5rem;
-}
-
-.sliderImg2 {
-  margin-left: 2rem;
-}
-
-.sliderImg3 {
-  margin-left: 3rem;
-}
-
-.realTime {
-  display: flex;
-  place-content: center;
-  margin-top: 3rem;
-}
-
-.realTime h2 {
-  margin-left: 10rem;
-  /* width: 488px;
-  height: 89px;
-  top: 1038px;
-  left: 804px; */
-  font-family: Abril Fatface;
-  font-size: 26px;
-  font-weight: 600;
-  line-height: 89px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #000000;
-}
-
-.realtimeImg {
-  width: 400px;
-  height: 400px;
-  top: 1031px;
-  left: 172px;
-  margin-left: -10rem;
-}
-
 .engage {
+  margin-top: 2rem;
   display: flex;
-  place-content: center;
-  margin-top: 3rem;
+  justify-content: center;
+  width: Hug (1, 046px);
+  height: Hug (438px);
+  top: 2242px;
+  left: 204px;
+  padding: 26px, 64px, 26px, 64px;
+  gap: 69px;
 }
 
 .engage h2 {
-  margin-left: 5rem;
-  font-family: Abril Fatface;
-  font-size: 26px;
-  font-weight: 600;
-  line-height: 89px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #000000;
-  cursor: zoom-in;
+  color: #080708;
+  font-weight: 800;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  margin-bottom: -0.05rem;
+}
+.engage span {
+  margin-top: -1rem;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 550;
+  line-height: 2px;
 }
 
-.engageImg {
-  width: 500px;
-  height: 400px;
-  top: 1031px;
-  left: 172px;
-  margin-left: 10rem;
+.why {
+  margin-top: 16rem;
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: 200px;
+  top: 2772px;
+  gap: 69px;
+  background: #d5963d;
 }
 
-/* .signUp h3 {
-  margin-top: 2rem;
-  text-decoration: none;
-  font-size: small;
+.whyImg {
+  width: 590.02px;
+  height: 320.52px;
+  top: 2856.28px;
+  left: 140.39px;
+  margin-top: -10rem;
 }
 
-.signUp {
+.whyus {
+  margin-top: -11.5rem;
+  width: 320px;
+  height: 340px;
+  top: 2772px;
+  left: 911px;
+  background: #a5410f;
+  background-size: 40%;
+}
+
+.whyus h2 {
+  font-family: SF Pro Display;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
   text-align: center;
-  margin-left: 10rem;
-  margin-bottom: 3rem;
-  margin-top: 3rem;
+  color: #ffff;
 }
 
-.signupBtn {
-  width: 50%;
-  height: 8vh;
-  border: none;
-  color: rgba(255, 255, 255, 0.897);
+.whyus p {
+  text-align: center;
 }
-.signupBtn:hover {
-  background-color: rgb(5, 105, 44);
-  color: rgba(255, 255, 255, 0.897);
+
+.whyus span {
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+
+  color: #ffff;
 }
-.loginBtn {
-  margin-top: 1rem;
-  width: 30%;
-  border: none;
-  background-color: transparent;
-  color: rgb(44, 44, 44);
-}
-.loginBtn:hover {
-  background-color: rgb(2, 70, 28);
-  color: rgba(255, 255, 255, 0.897);
-} */

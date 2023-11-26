@@ -8,16 +8,23 @@ function header() {
         <Fragment>
             <div className={classes.header}>
                 <Logo />
-                <ul className={classes.navbar}>
-                    <li>
-                        <a href='/'>Services</a>
-                    </li>
-                    <li>
-                        <a href='/about'>About</a>
-                    </li>
-                </ul>
+
+                <li className={classes.services}>
+                    <a href='/'>Home</a>
+                </li>
+
+                <li className={classes.services}>
+                    <a href='/services'>Services</a>
+                </li>
+                <li className={classes.about}>
+                    <a href='/about'>About Us</a>
+                </li>
+
                 <button className={classes.headerLogin}>Log in</button>
+
+                <button className={classes.headerSignup}>Create an Account</button>
             </div>
+            <div className={classes.line}></div>
         </Fragment>
     );
 };
