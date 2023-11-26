@@ -58,6 +58,10 @@
   background-color: #080708;
   margin-top: 1rem;
   border: none;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
 }
 
 .btn:hover {

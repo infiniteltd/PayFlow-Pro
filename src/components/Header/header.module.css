@@ -4,21 +4,61 @@
   margin: 1rem;
 }
 
-/* .home {
-  margin-top: 1.2rem;
-  margin-right: -30rem;
-  cursor: pointer;
-} */
-
-.navbar {
-  display: flex;
-  margin-top: 1.2rem;
-  margin-right: -30rem;
+li {
+  list-style-type: none;
+  margin-top: 0.7rem;
 }
 
-.services {
-  margin-left: 10rem;
+/* li:hover {
   text-decoration: none;
+  color: #690669;
+} */
+
+.home a {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(95, 94, 94);
+  margin-left: 5rem;
+}
+
+.home a:hover {
+  text-decoration: underline;
+  color: #690669;
+}
+
+.services a {
+  list-style-type: none;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(95, 94, 94);
+  margin-left: -2rem;
+}
+.services a:hover {
+  text-decoration: underline;
+  color: #690669;
+}
+.about a {
+  list-style-type: none;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(95, 94, 94);
+  margin-left: -2rem;
+}
+.about a:hover {
+  text-decoration: underline;
+  color: #690669;
 }
 
 .headerLogin {
@@ -27,17 +67,26 @@
   height: 7vh;
   top: 36px;
   left: 122px;
-  padding: 5px, 5px, 5px, 5px;
-  border-radius: 26px;
   gap: 10px;
-  color: #fff;
-  background-color: #407bff;
+  color: #080708;
+  background-color: transparent;
   border: none;
-  margin-right: -5rem;
+  margin-right: -4rem;
   text-align: center;
 }
 
-.headerLogin:hover {
+.headerSignup {
+  width: 12%;
+  height: 10%;
+  background-color: #080708;
+  border: none;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.headerSignup:hover {
   background-color: #690669;
 }
 
@@ -54,8 +103,8 @@ h2:hover {
 
 .line {
   width: 90%;
-  height: 1vh;
-  margin-left: 4rem;
+  height: 2px;
+  margin-left: 1.5rem;
   margin-top: 2rem;
   background: #d9d9d9;
   border-radius: 10px 10px 10px 10px;

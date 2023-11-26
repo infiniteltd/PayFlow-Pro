@@ -9,7 +9,7 @@ function header() {
             <div className={classes.header}>
                 <Logo />
 
-                <li className={classes.services}>
+                <li className={classes.home}>
                     <a href='/'>Home</a>
                 </li>
 
